@@ -1,18 +1,45 @@
-body {
-  background-color: blanchedalmond;
-  color: navy;
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  background-image: url(images/bg.jpg);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: rgb(57, 57, 89);
 }
 h1 {
-  text-align: center;
   font-size: 82px;
+  margin-top: 0;
+  padding-top: 90px;
 }
-h2 {
+p {
+  padding: 25px;
+  margin: 0 30px 20px;
+  border-radius: 5px;
+  background-color: rgba(250, 235, 215, 0.618);
+  color: rgb(57, 57, 89);
   text-align: center;
+  line-height: 150%;
 }
 footer {
   text-align: center;
+  margin-bottom: 30px;
 }
 footer a {
-  color: navy;
+  background-color: rgba(250, 235, 215, 0.618);
+  padding: 8px;
+  border-radius: 4px;
+  color: rgb(57, 57, 89);
   margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
 }
